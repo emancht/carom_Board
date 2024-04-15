@@ -1,0 +1,156 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.board {
+  width: 600px;
+  height: 600px;
+  background: orange;
+  border: 20px solid #b01f0586;
+  border-radius: 20px;
+  position: relative;
+  margin: auto;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #f80000;
+  border-radius: 50%;
+}
+
+.hole {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.stricker {
+  width: 40px;
+  height: 40px;
+  background: #a200ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 360px;
+  transition: transform 6s;
+}
+
+.stricker:hover {
+  transform: translate(-150px, 300px);
+}
+
+.box-x {
+  position: absolute;
+  width: 450px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.box-y {
+  position: absolute;
+  height: 450px;
+  width: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.x-1 {
+  position: absolute;
+  top: 30px;
+  left: 55px;
+}
+.x-2 {
+  position: absolute;
+  top: 500px;
+  left: 55px;
+}
+.y-1 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+.y-2 {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+
+.c-1 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.c-2 {
+  position: absolute;
+  top: 30px;
+  left: 490px;
+}
+.c-3 {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+}
+.c-4 {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+.c-5 {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+.c-6 {
+  position: absolute;
+  top: 480px;
+  left: 500px;
+}
+.c-7 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+.c-8 {
+  position: absolute;
+  top: 480px;
+  left: 40px;
+}
+.c-9 {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+.c-10 {
+  position: absolute;
+  top: -4px;
+  left: 535px;
+}
+.c-11 {
+  position: absolute;
+  top: 535px;
+  left: -3px;
+}
+.c-12 {
+  position: absolute;
+  top: 535px;
+  left: 533px;
+}
+.c-t {
+  position: absolute;
+  top: 260px;
+  left: 260px;
+}
+.c-round {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: absolute;
+  top: 210px;
+  left: 210px;
+}
